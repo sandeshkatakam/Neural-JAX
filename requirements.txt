@@ -1,0 +1,8 @@
+hydra-core
+matplotlib
+numpy
+pandas
+pytorch-lightning
+seaborn
+torch
+torchvision
