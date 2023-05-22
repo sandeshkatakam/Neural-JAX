@@ -18,18 +18,18 @@ install_requires = [line.strip() for line in open("requirements.txt").readlines(
 with open("README.md", "r", encoding="UTF-8") as fh:
     long_description = fh.read()
 
-__version__ = runpy.run_path("ai_awesome/_version.py")["__version__"]
+__version__ = runpy.run_path("neural-jax/_version.py")["__version__"]
 
 # Setup package
 setuptools.setup(
-    name="Replace with project name",
+    name="Neural-JAX",
     version=__version__,
-    author="Replace with your name",
-    author_email="Replace with your email",
-    description="Give short description of your project.",
+    author="Sandesh Katakam",
+    author_email="sandeshkatakam@gmail.com",
+    description="A JAX Based Library for Deep Learning Algorithms and Model Architectures",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/your_project_link",
+    url="https://github.com/Neural-JAX",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
