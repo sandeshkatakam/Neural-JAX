@@ -1,5 +1,10 @@
-______________________________________________________________________
-# Neural JAX : A JAX-Based Library for Deep Learning
+<div align="center">
+
+# Neural JAX
+
+**A JAX-Based Library for Deep Learning Models in Computer Vison and Natural Language Processing**
+</div>
+A JAX-based Deep learning library containing customizable models for Computer Vision, Natural Language Processing and Time-series Forecasting etc. with easily customizable model architectures for experimentation and Flexible trainer module
 
 Coming Soon.. Code Update in Jun 2023
 
